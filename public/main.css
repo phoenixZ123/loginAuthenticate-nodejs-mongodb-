@@ -1,0 +1,78 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", Sans;
+}
+body {
+  background-color: #2f4960;
+  background-image: linear-gradient(to bottom, #2f4988 60%, #2f4934);
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+.home {
+  max-width: 500px;
+  padding: 50px 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 100%;
+  text-align: center;
+}
+form {
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  padding: 50px 30px;
+  background-image: linear-gradient(to left, #2f4998 60%, #2f4934);
+  box-shadow: 8px 3px 7px rgba(0, 0, 0, 0.4);
+  border-radius: 20px;
+}
+form h1 {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.form_group input {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+#submit {
+  padding: 7px;
+  background-color: #2f4934;
+  color: yellowgreen;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+}
+#submit:hover {
+  border: 1px solid grey;
+}
+form input:focus {
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+}
+.err_msg {
+  padding: 4px 6px;
+  background-color: #2323;
+  border-radius: 8px;
+  border-bottom: 15px;
+  color: red;
+  font-weight: 400;
+  box-shadow: 8px 3px 8px rgba(0, 0, 0, 0.4);
+}
+form label {
+  font-size: 15px;
+}

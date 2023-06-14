@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+</head>
+<body>
+    
+    <form action="/login" method="post">
+    <div>
+        {{#if error}}
+        <p class="err_msg">Something was wrong</p>
+        {{/if}}
+        <h1>Login Here</h1>
+    </div>
+    <div class="form_group">
+        <label >Email :</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required/>       
+    
+    <label>Password :</label>
+    <input type="password" name="password" id="password" placeholder="Enter your password" required />
+</div>
+
+    <div>
+        <input type="submit" value="Login" id="submit"/>
+    </div>
+    </form>
+</body>
+</html>
